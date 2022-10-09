@@ -1,0 +1,1322 @@
+[
+  {
+    "name": "Bulbasaur",
+    "description": "There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger.",
+    "external_url": "https://www.pokemon.com/us/pokedex/bulbasaur",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 1
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "grass_poison"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "1/3"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 318
+      }
+    ]
+  },
+  {
+    "name": "Ivysaur",
+    "description": "When the bulb on its back grows large, it appears to lose the ability to stand on its hind legs.",
+    "external_url": "https://www.pokemon.com/us/pokedex/ivysaur",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 2
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "grass_poison"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "2/3"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 405
+      }
+    ]
+  },
+  {
+    "name": "Venusaur",
+    "description": "Its plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.",
+    "external_url": "https://www.pokemon.com/us/pokedex/venusaur",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 3
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "grass_poison"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "3/3"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 525
+      }
+    ]
+  },
+  {
+    "name": "Charmander",
+    "description": "It has a preference for hot things. When it rains, steam is said to spout from the tip of its tail.",
+    "external_url": "https://www.pokemon.com/us/pokedex/charmander",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 4
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "fire"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "1/3"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 309
+      }
+    ]
+  },
+  {
+    "name": "Charmeleon",
+    "description": "It has a barbaric nature. In battle, it whips its fiery tail around and slashes away with sharp claws.",
+    "external_url": "https://www.pokemon.com/us/pokedex/charmeleon",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/005.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 5
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "fire"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "2/3"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 405
+      }
+    ]
+  },
+  {
+    "name": "Charizard",
+    "description": "It spits fire that is hot enough to melt boulders. It may cause forest fires by blowing flames.",
+    "external_url": "https://www.pokemon.com/us/pokedex/charizard",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 6
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "fire_flying"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "3/3"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 534
+      }
+    ]
+  },
+  {
+    "name": "Squirtle",
+    "description": "When it retracts its long neck into its shell, it squirts out water with vigorous force.",
+    "external_url": "https://www.pokemon.com/us/pokedex/squirtle",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 7
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "water"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "1/3"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 314
+      }
+    ]
+  },
+  {
+    "name": "Wartortle",
+    "description": "It is recognized as a symbol of longevity. If its shell has algae on it, that Wartortle is very old.",
+    "external_url": "https://www.pokemon.com/us/pokedex/wartortle",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/008.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 8
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "water"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "2/3"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 405
+      }
+    ]
+  },
+  {
+    "name": "Blastoise",
+    "description": "It crushes its foe under its heavy body to cause fainting. In a pinch, it will withdraw inside its shell.",
+    "external_url": "https://www.pokemon.com/us/pokedex/blastoise",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/009.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 9
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "water"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "3/3"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 530
+      }
+    ]
+  },
+  {
+    "name": "Caterpie",
+    "description": "For protection, it releases a horrible stench from the antenna on its head to drive away enemies.",
+    "external_url": "https://www.pokemon.com/us/pokedex/caterpie",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/010.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 10
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "bug"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "1/3"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 195
+      }
+    ]
+  },
+  {
+    "name": "Metapod",
+    "description": "It is waiting for the moment to evolve. At this stage, it can only harden, so it remains motionless to avoid attack.",
+    "external_url": "https://www.pokemon.com/us/pokedex/metapod",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/011.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 11
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "bug"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "2/3"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 205
+      }
+    ]
+  },
+  {
+    "name": "Butterfree",
+    "description": "In battle, it flaps its wings at great speed to release highly toxic dust into the air.",
+    "external_url": "https://www.pokemon.com/us/pokedex/butterfree",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/012.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 12
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "bug_flying"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "3/3"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 395
+      }
+    ]
+  },
+  {
+    "name": "Weedle",
+    "description": "Beware of the sharp stinger on its head. It hides in grass and bushes where it eats leaves.",
+    "external_url": "https://www.pokemon.com/us/pokedex/weedle",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/013.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 13
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "bug_poison"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "1/3"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 195
+      }
+    ]
+  },
+  {
+    "name": "Kakuna",
+    "description": "Able to move only slightly. When endangered, it may stick out its stinger and poison its enemy.",
+    "external_url": "https://www.pokemon.com/us/pokedex/kakuna",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/014.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 14
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "bug_poison"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "2/3"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 205
+      }
+    ]
+  },
+  {
+    "name": "Beedrill",
+    "description": "It has three poisonous stingers on its forelegs and its tail. They are used to jab its enemy repeatedly.",
+    "external_url": "https://www.pokemon.com/us/pokedex/beedrill",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/015.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 15
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "bug_poison"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "3/3"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 395
+      }
+    ]
+  },
+  {
+    "name": "Pidgey",
+    "description": "Very docile. If attacked, it will often kick up sand to protect itself rather than fight back.",
+    "external_url": "https://www.pokemon.com/us/pokedex/pidgey",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/016.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 16
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "normal_flying"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "1/3"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 251
+      }
+    ]
+  },
+  {
+    "name": "Pidgeotto",
+    "description": "This Pokémon is full of vitality. It constantly flies around its large territory in search of prey.",
+    "external_url": "https://www.pokemon.com/us/pokedex/pidgeotto",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/017.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 17
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "normal_flying"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "2/3"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 349
+      }
+    ]
+  },
+  {
+    "name": "Pidgeot",
+    "description": "This Pokémon flies at Mach 2 speed, seeking prey. Its large talons are feared as wicked weapons.",
+    "external_url": "https://www.pokemon.com/us/pokedex/pidgeot",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/018.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 18
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "normal_flying"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "3/3"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 479
+      }
+    ]
+  },
+  {
+    "name": "Rattata",
+    "description": "Will chew on anything with its fangs. If you see one, you can be certain that 40 more live in the area.",
+    "external_url": "https://www.pokemon.com/us/pokedex/rattata",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/019.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 19
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "normal"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "1/2"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 253
+      }
+    ]
+  },
+  {
+    "name": "Raticate",
+    "description": "Its hind feet are webbed. They act as flippers, so it can swim in rivers and hunt for prey.",
+    "external_url": "https://www.pokemon.com/us/pokedex/raticate",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/020.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 20
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "normal"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "2/2"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 413
+      }
+    ]
+  },
+  {
+    "name": "Spearow",
+    "description": "Inept at flying high. However, it can fly around very fast to protect its territory.",
+    "external_url": "https://www.pokemon.com/us/pokedex/spearow",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/021.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 21
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "normal_flying"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "1/2"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 262
+      }
+    ]
+  },
+  {
+    "name": "Fearow",
+    "description": "A Pokémon that dates back many years. If it senses danger, it flies high and away, instantly.",
+    "external_url": "https://www.pokemon.com/us/pokedex/fearow",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/022.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 22
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "normal_flying"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "2/2"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 442
+      }
+    ]
+  },
+  {
+    "name": "Ekans",
+    "description": "The older it gets, the longer it grows. At night, it wraps its long body around tree branches to rest.",
+    "external_url": "https://www.pokemon.com/us/pokedex/ekans",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/023.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 23
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "poison"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "1/2"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 288
+      }
+    ]
+  },
+  {
+    "name": "Arbok",
+    "description": "The frightening patterns on its belly have been studied. Six variations have been confirmed.",
+    "external_url": "https://www.pokemon.com/us/pokedex/arbok",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/024.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 24
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "poison"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "2/2"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 448
+      }
+    ]
+  },
+  {
+    "name": "Pikachu",
+    "description": "Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy.",
+    "external_url": "https://www.pokemon.com/us/pokedex/pikachu",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 25
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "electric"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "1/2"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 320
+      }
+    ]
+  },
+  {
+    "name": "Raichu",
+    "description": "Its long tail serves as a ground to protect itself from its own high-voltage power.",
+    "external_url": "https://www.pokemon.com/us/pokedex/raichu",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/026.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 26
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "electric"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "2/2"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 485
+      }
+    ]
+  },
+  {
+    "name": "Sandshrew",
+    "description": "It loves to bathe in the grit of dry, sandy areas. By sand bathing, the Pokémon rids itself of dirt and moisture clinging to its body.",
+    "external_url": "https://www.pokemon.com/us/pokedex/sandshrew",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/027.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 27
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "ground"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "1/2"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 300
+      }
+    ]
+  },
+  {
+    "name": "Sandslash",
+    "description": "The drier the area Sandslash lives in, the harder and smoother the Pokémon’s spikes will feel when touched.",
+    "external_url": "https://www.pokemon.com/us/pokedex/sandslash",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/028.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 28
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "ground"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "2/2"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 450
+      }
+    ]
+  },
+  {
+    "name": "Female Nidoran",
+    "description": "Females are more sensitive to smells than males. While foraging, they’ll use their whiskers to check wind direction and stay downwind of predators.",
+    "external_url": "https://www.pokemon.com/us/pokedex/nidoran-female",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/029.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 29
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "poison"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "1/3"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 275
+      }
+    ]
+  },
+  {
+    "name": "Nidorina",
+    "description": "The horn on its head has atrophied. It’s thought that this happens so Nidorina’s children won’t get poked while their mother is feeding them.",
+    "external_url": "https://www.pokemon.com/us/pokedex/nidorina",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/030.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 30
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "poison"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "2/3"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 365
+      }
+    ]
+  },
+  {
+    "name": "Nidoqueen",
+    "description": "Nidoqueen is better at defense than offense. With scales like armor, this Pokémon will shield its children from any kind of attack.",
+    "external_url": "https://www.pokemon.com/us/pokedex/nidoqueen",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/031.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 31
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "poison_ground"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "3/3"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 505
+      }
+    ]
+  },
+  {
+    "name": "Male Nidoran",
+    "description": "The horn on a male Nidoran’s forehead contains a powerful poison. This is a very cautious Pokémon, always straining its large ears.",
+    "external_url": "https://www.pokemon.com/us/pokedex/nidoran-male",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/032.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 32
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "poison"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "3/3"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 273
+      }
+    ]
+  },
+  {
+    "name": "Nidorino",
+    "description": "With a horn that’s harder than diamond, this Pokémon goes around shattering boulders as it searches for a moon stone.",
+    "external_url": "https://www.pokemon.com/us/pokedex/nidorino",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/033.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 33
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "poison"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "2/3"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 365
+      }
+    ]
+  },
+  {
+    "name": "Nidoking",
+    "description": "When it goes on a rampage, it’s impossible to control. But in the presence of a Nidoqueen it’s lived with for a long time, Nidoking calms down.",
+    "external_url": "https://www.pokemon.com/us/pokedex/nidoking",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/034.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 34
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "poison_ground"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "3/3"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 505
+      }
+    ]
+  },
+  {
+    "name": "Clefairy",
+    "description": "It is said that happiness will come to those who see a gathering of Clefairy dancing under a full moon.",
+    "external_url": "https://www.pokemon.com/us/pokedex/clefairy",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/035.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 35
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "fairy"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "1/2"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 323
+      }
+    ]
+  },
+  {
+    "name": "Clefable",
+    "description": "A timid fairy Pokémon that is rarely seen, it will run and hide the moment it senses people.",
+    "external_url": "https://www.pokemon.com/us/pokedex/clefable",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/036.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 36
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "fairy"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "2/2"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 483
+      }
+    ]
+  },
+  {
+    "name": "Vulpix",
+    "description": "While young, it has six gorgeous tails. When it grows, several new tails are sprouted.",
+    "external_url": "https://www.pokemon.com/us/pokedex/vulpix",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/037.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 37
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "fire"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "1/2"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 299
+      }
+    ]
+  },
+  {
+    "name": "Ninetales",
+    "description": "It is said to live 1,000 years, and each of its tails is loaded with supernatural powers.",
+    "external_url": "https://www.pokemon.com/us/pokedex/ninetales",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/038.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 38
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "fire"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "2/2"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 505
+      }
+    ]
+  },
+  {
+    "name": "Jigglypuff",
+    "description": "Jigglypuff has top-notch lung capacity, even by comparison to other Pokémon. It won’t stop singing its lullabies until its foes fall asleep.",
+    "external_url": "https://www.pokemon.com/us/pokedex/jigglypuff",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/039.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 39
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "normal_fairy"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "1/2"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 270
+      }
+    ]
+  },
+  {
+    "name": "Wigglytuff",
+    "description": "The more air it takes in, the more it inflates. If opponents catch it in a bad mood, it will inflate itself to an enormous size to intimidate them.",
+    "external_url": "https://www.pokemon.com/us/pokedex/wigglytuff",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/040.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 40
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "normal_fairy"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "2/2"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 435
+      }
+    ]
+  },
+  {
+    "name": "Zubat",
+    "description": "It emits ultrasonic waves from its mouth to check its surroundings. Even in tight caves, Zubat flies around with skill.",
+    "external_url": "https://www.pokemon.com/us/pokedex/zubat",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/041.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 41
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "poison_flying"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "1/2"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 245
+      }
+    ]
+  },
+  {
+    "name": "Golbat",
+    "description": "It loves to drink other creatures’ blood. It’s said that if it finds others of its kind going hungry, it sometimes shares the blood it’s gathered.",
+    "external_url": "https://www.pokemon.com/us/pokedex/golbat",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/042.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 42
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "poison_flying"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "2/2"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 455
+      }
+    ]
+  },
+  {
+    "name": "Oddish",
+    "description": "If exposed to moonlight, it starts to move. It roams far and wide at night to scatter its seeds.",
+    "external_url": "https://www.pokemon.com/us/pokedex/oddish",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/043.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 43
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "grass_poison"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "1/3"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 320
+      }
+    ]
+  },
+  {
+    "name": "Gloom",
+    "description": "Its pistils exude an incredibly foul odor. The horrid stench can cause fainting at a distance of 1.25 miles.",
+    "external_url": "https://www.pokemon.com/us/pokedex/gloom",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/044.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 44
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "grass_poison"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "2/3"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 395
+      }
+    ]
+  },
+  {
+    "name": "Vileplume",
+    "description": "It has the world’s largest petals. With every step, the petals shake out heavy clouds of toxic pollen.",
+    "external_url": "https://www.pokemon.com/us/pokedex/vileplume",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/045.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 45
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "grass_poison"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "3/3"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 490
+      }
+    ]
+  },
+  {
+    "name": "Paras",
+    "description": "Burrows under the ground to gnaw on tree roots. The mushrooms on its back absorb most of the nutrition.",
+    "external_url": "https://www.pokemon.com/us/pokedex/paras",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/046.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 46
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "bug_grass"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "1/2"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 285
+      }
+    ]
+  },
+  {
+    "name": "Parasect",
+    "description": "The bug host is drained of energy by the mushroom on its back. The mushroom appears to do all the thinking.",
+    "external_url": "https://www.pokemon.com/us/pokedex/parasect",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/047.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 47
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "bug_grass"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "2/2"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 405
+      }
+    ]
+  },
+  {
+    "name": "Venonat",
+    "description": "Its large eyes act as radar. In a bright place, you can see that they are clusters of many tiny eyes.",
+    "external_url": "https://www.pokemon.com/us/pokedex/venonat",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/048.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 48
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "bug_poison"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "1/2"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 305
+      }
+    ]
+  },
+  {
+    "name": "Venomoth",
+    "description": "The powdery scales on its wings are hard to remove from skin. They also contain poison that leaks out on contact.",
+    "external_url": "https://www.pokemon.com/us/pokedex/venomoth",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/049.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 49
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "bug_poison"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "2/2"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 450
+      }
+    ]
+  },
+  {
+    "name": "Diglett",
+    "description": "If a Diglett digs through a field, it leaves the soil perfectly tilled and ideal for planting crops.",
+    "external_url": "https://www.pokemon.com/us/pokedex/diglett",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/050.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 50
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "ground"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "1/2"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 265
+      }
+    ]
+  },
+  {
+    "name": "Dugtrio",
+    "description": "A team of Diglett triplets. It triggers huge earthquakes by burrowing 60 miles underground.",
+    "external_url": "https://www.pokemon.com/us/pokedex/dugtrio",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/051.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 51
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "ground"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "2/2"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 425
+      }
+    ]
+  },
+  {
+    "name": "Meowth",
+    "description": "It loves to collect shiny things. If it’s in a good mood, it might even let its Trainer have a look at its hoard of treasures.",
+    "external_url": "https://www.pokemon.com/us/pokedex/meowth",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/052.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 52
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "normal"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "1/2"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 290
+      }
+    ]
+  },
+  {
+    "name": "Persian",
+    "description": "Getting this prideful Pokémon to warm up to you takes a lot of effort, and it will claw at you the moment it gets annoyed.",
+    "external_url": "https://www.pokemon.com/us/pokedex/persian",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/053.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 53
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "normal"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "2/2"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 440
+      }
+    ]
+  },
+  {
+    "name": "Psyduck",
+    "description": "Psyduck is constantly beset by headaches. If the Pokémon lets its strange power erupt, apparently the pain subsides for a while.",
+    "external_url": "https://www.pokemon.com/us/pokedex/psyduck",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/054.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 54
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "water"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "1/2"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 320
+      }
+    ]
+  },
+  {
+    "name": "Golduck",
+    "description": "This Pokémon lives in gently flowing rivers. It paddles through the water with its long limbs, putting its graceful swimming skills on display.",
+    "external_url": "https://www.pokemon.com/us/pokedex/golduck",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/055.png",
+    "attributes": [
+      {
+        "trait_type": "PokedexID",
+        "value": 55
+      },
+      {
+        "trait_type": "PokemonType",
+        "value": "water"
+      },
+      {
+        "trait_type": "EvolveStage",
+        "value": "2/2"
+      },
+      {
+        "trait_type": "TotalPower",
+        "value": 500
+      }
+    ]
+  }
+]
