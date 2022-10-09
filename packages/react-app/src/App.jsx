@@ -42,7 +42,8 @@ const { BufferList } = require("bl");
 // https://www.npmjs.com/package/ipfs-http-client
 const ipfsAPI = require("ipfs-http-client");
 
-const ipfs = ipfsAPI({ host: "ipfs.infura.io", port: "5001", protocol: "https" });
+const auth = "Basic " + Buffer.from(process.env.REACT_APP_INFURA_IPFS_PROJECT_ID + ":" + process.env.REACT_APP_INFURA_IPFS_PROJECT_SECRET).toString("base64");
+const ipfs = ipfsAPI({ host: "ipfs.infura.io", port: "5001", protocol: "https", headers: { authorization: auth } });
 
 console.log("📦 Assets: ", assets);
 /*
@@ -291,11 +292,11 @@ function App(props) {
   ]);
 
   // keep track of a variable from the contract in the local React state:
-  const balance = useContractReader(readContracts, "YourCollectible", "balanceOf", [address]);
+  const balance = useContractReader(readContracts, "Pokemon", "balanceOf", [address]);
   console.log("🤗 balance:", balance);
 
   // 📟 Listen for broadcast events
-  const transferEvents = useEventListener(readContracts, "YourCollectible", "Transfer", localProvider, 1);
+  const transferEvents = useEventListener(readContracts, "Pokemon", "Transfer", localProvider, 1);
   console.log("📟 Transfer events:", transferEvents);
 
   //
@@ -310,9 +311,9 @@ function App(props) {
       for (let tokenIndex = 0; tokenIndex < balance; tokenIndex++) {
         try {
           console.log("GEtting token index", tokenIndex);
-          const tokenId = await readContracts.YourCollectible.tokenOfOwnerByIndex(address, tokenIndex);
+          const tokenId = await readContracts.Pokemon.tokenOfOwnerByIndex(address, tokenIndex);
           console.log("tokenId", tokenId);
-          const tokenURI = await readContracts.YourCollectible.tokenURI(tokenId);
+          const tokenURI = await readContracts.Pokemon.tokenURI(tokenId);
           console.log("tokenURI", tokenURI);
 
           const ipfsHash = tokenURI.replace("https://ipfs.io/ipfs/", "");
@@ -501,15 +502,7 @@ function App(props) {
   let faucetHint = "";
   const faucetAvailable = localProvider && localProvider.connection && targetNetwork.name.indexOf("local") !== -1;
 
-  const [faucetClicked, setFaucetClicked] = useState(false);
-  if (
-    !faucetClicked &&
-    localProvider &&
-    localProvider._network &&
-    localProvider._network.chainId === 31337 &&
-    yourLocalBalance &&
-    ethers.utils.formatEther(yourLocalBalance) <= 0
-  ) {
+  if (localProvider && localProvider._network && localProvider._network.chainId === 31337) {
     faucetHint = (
       <div style={{ padding: 16 }}>
         <Button
@@ -517,9 +510,8 @@ function App(props) {
           onClick={() => {
             faucetTx({
               to: address,
-              value: ethers.utils.parseEther("0.01"),
+              value: ethers.utils.parseEther("2"),
             });
-            setFaucetClicked(true);
           }}
         >
           💰 Grab funds from the faucet ⛽️
@@ -544,11 +536,11 @@ function App(props) {
       const assetUpdate = [];
       for (const a in assets) {
         try {
-          const forSale = await readContracts.YourCollectible.forSale(ethers.utils.id(a));
+          const forSale = await readContracts.Pokemon.forSale(ethers.utils.id(a));
           let owner;
           if (!forSale) {
-            const tokenId = await readContracts.YourCollectible.uriToTokenId(ethers.utils.id(a));
-            owner = await readContracts.YourCollectible.ownerOf(tokenId);
+            const tokenId = await readContracts.Pokemon.uriToTokenId(ethers.utils.id(a));
+            owner = await readContracts.Pokemon.ownerOf(tokenId);
           }
           assetUpdate.push({ id: a, ...assets[a], forSale, owner });
         } catch (e) {
@@ -557,12 +549,12 @@ function App(props) {
       }
       setLoadedAssets(assetUpdate);
     };
-    if (readContracts && readContracts.YourCollectible) updateYourCollectibles();
+    if (readContracts && readContracts.Pokemon) updateYourCollectibles();
   }, [assets, readContracts, transferEvents]);
 
   const galleryList = [];
   for (const a in loadedAssets) {
-    console.log("loadedAssets", a, loadedAssets[a]);
+    // console.log("loadedAssets", a, loadedAssets[a]);
 
     const cardActions = [];
     if (loadedAssets[a].forSale) {
@@ -571,7 +563,12 @@ function App(props) {
           <Button
             onClick={() => {
               console.log("gasPrice,", gasPrice);
-              tx(writeContracts.YourCollectible.mintItem(loadedAssets[a].id, { gasPrice }));
+              tx(
+                writeContracts.Pokemon.mintItem(loadedAssets[a].id, {
+                  gasPrice,
+                  value: ethers.utils.parseEther("0.1"),
+                }),
+              );
             }}
           >
             Mint
@@ -745,7 +742,7 @@ function App(props) {
                         <Button
                           onClick={() => {
                             console.log("writeContracts", writeContracts);
-                            tx(writeContracts.YourCollectible.transferFrom(address, transferToAddresses[id], id));
+                            tx(writeContracts.Pokemon.transferFrom(address, transferToAddresses[id], id));
                           }}
                         >
                           Transfer
@@ -852,7 +849,7 @@ function App(props) {
           </Route>
           <Route path="/debugcontracts">
             <Contract
-              name="YourCollectible"
+              name="Pokemon"
               signer={userSigner}
               provider={localProvider}
               address={address}
