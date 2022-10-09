@@ -4,38 +4,46 @@ const chalk = require("chalk");
 const { config, ethers } = require("hardhat");
 const { utils } = require("ethers");
 const R = require("ramda");
-const ipfsAPI = require('ipfs-http-client');
-const ipfs = ipfsAPI({host: 'ipfs.infura.io', port: '5001', protocol: 'https' })
+const ipfsAPI = require("ipfs-http-client");
+
+const auth =
+  "Basic " + Buffer.from(process.env.INFURA_IPFS_PROJECT_ID + ":" + process.env.INFURA_IPFS_PROJECT_SECRET).toString("base64");
+
+const ipfs = ipfsAPI({
+  host: "ipfs.infura.io",
+  port: "5001",
+  protocol: "https",
+  headers: { authorization: auth },
+});
 const DELAY = 5000;
 
 function timeout(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 const main = async () => {
-
-  let allAssets = {}
+  let allAssets = {};
 
   console.log("\n\n Loading artwork.json...\n");
-  const artwork = JSON.parse(fs.readFileSync("../../artwork.json").toString())
+  const artwork = JSON.parse(
+    fs.readFileSync("../../pokemon-artwork-with-ids.json").toString()
+  );
 
-  for(let a in artwork){
-    console.log("  Uploading "+artwork[a].name+"...")
-    const stringJSON = JSON.stringify(artwork[a])
+  for (let a in artwork) {
+    console.log("  Uploading " + artwork[a].name + "...");
+    const stringJSON = JSON.stringify(artwork[a]);
     const [uploaded] = await Promise.all([
       ipfs.add(stringJSON),
-      timeout(DELAY)
+      timeout(DELAY),
     ]);
-    console.log("   "+artwork[a].name+" ipfs:",uploaded.path)
-    allAssets[uploaded.path] = artwork[a]
+    console.log("   " + artwork[a].name + " ipfs:", uploaded.path);
+    allAssets[uploaded.path] = artwork[a];
   }
 
-  console.log("\n Injecting assets into the frontend...")
-  const finalAssetFile = "export default "+JSON.stringify(allAssets)+""
-  fs.writeFileSync("../react-app/src/assets.js",finalAssetFile)
-  fs.writeFileSync("./uploaded.json",JSON.stringify(allAssets))
-
-
+  console.log("\n Injecting assets into the frontend...");
+  const finalAssetFile = "export default " + JSON.stringify(allAssets) + "";
+  fs.writeFileSync("../react-app/src/assets.js", finalAssetFile);
+  fs.writeFileSync("./uploaded.json", JSON.stringify(allAssets));
 
   /*
   //If you want to send value to an address from the deployer
@@ -46,14 +54,12 @@ const main = async () => {
   })
   */
 
-
   /*
   //If you want to send some ETH to a contract on deploy (make your constructor payable!)
   const yourContract = await deploy("YourContract", [], {
   value: ethers.utils.parseEther("0.05")
   });
   */
-
 
   /*
   //If you want to link a library into your contract:
@@ -62,11 +68,10 @@ const main = async () => {
    LibraryName: **LibraryAddress**
   });
   */
-
 };
 
 function sleep(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 main()
