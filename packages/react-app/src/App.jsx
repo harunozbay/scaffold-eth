@@ -502,7 +502,7 @@ function App(props) {
   let faucetHint = "";
   const faucetAvailable = localProvider && localProvider.connection && targetNetwork.name.indexOf("local") !== -1;
 
-  if (localProvider && localProvider._network && localProvider._network.chainId === 31337) {
+  if (localProvider && localProvider._network && localProvider._network.chainId === 31337 && ethers.utils.formatEther(yourLocalBalance) <= 2) {
     faucetHint = (
       <div style={{ padding: 16 }}>
         <Button
